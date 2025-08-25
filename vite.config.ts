@@ -9,7 +9,7 @@ export default defineConfig({
   server: {
     host: "::",
     port: 8080,
-    allowedHosts: ['.fly.io'],
+    allowedHosts: true as true,
   },
   resolve: {
     alias: {
